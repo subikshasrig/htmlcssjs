@@ -69,7 +69,7 @@
           />
 
           <label for="price">Price</label>
-          <input type="checkbox" id="submit" name="price" value="price" />
+          <input type="checkbox" id="check-submit" name="price" value="price" />
         </fieldset>
 
         <fieldset>
@@ -101,7 +101,7 @@
           <textarea id='comments' name='comments' rows='4' cols='50'></textarea>
           </fieldset>
 
-          <button type='submit'>Submit Form</button>
+          <button id='submit' type='submit'>Submit Form</button>
       </form>
     </main>
   </body>
